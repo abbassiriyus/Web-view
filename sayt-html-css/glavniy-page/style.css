@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@200..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');*{
     padding: 0;
     margin: 0;
@@ -37,6 +37,10 @@ text-align: left;
 .links li a{
     text-decoration: none;
     color: black;
+    transition: 1s;
+}
+.links li a:hover{
+    color: #FCD971;
 }
 .navbar{
     /* width: 95%; */
@@ -44,7 +48,7 @@ text-align: left;
     /* max-width: 1190px; */
     /* margin: 0 auto; */
     display: flex;
-    width: 84%;
+    width: 85%;
     justify-content: space-between;
     align-items: center;
 }
@@ -108,4 +112,76 @@ margin-top: -7px;
     height: 240px
 }
 
+.first_div_for_text{
+    position: relative;
+}
 
+.first_div_for_text h1{
+font-family: Unbounded;
+font-size: 45px;
+font-weight: 600;
+line-height: 55.8px;
+text-align: left;
+
+}
+.phone_text_img{
+    display: grid;
+    margin-top: 91px;
+    grid-template-columns: 5fr 3fr;
+}
+.first_div_for_text p{
+font-family: Montserrat;
+font-size: 20px;
+font-weight: 400;
+line-height: 24.38px;
+text-align: left;
+margin-top: 22px;
+width: 62%;
+}
+.first_div_for_text button{
+    height: 65px;
+    width: 38%;
+    margin-top: 68px;
+font-family: Montserrat;
+font-size: 18px;
+font-weight: 600;
+line-height: 21.94px;
+border-radius: 5px;
+color: white;
+background-color: #41E88C;
+border: none;
+}
+.second_div_for_img{
+    position: relative;
+}
+.phone{
+    position: absolute;
+    left: -134px;
+    top: -20;
+    top: -59px;
+    width: 85%;
+}
+.blur_first{
+    background: #FFFFFF80;
+    border: 1px solid #FFFFFF4D;
+    /* background: red; */
+    box-shadow: 0px 0px 20.2px 0px #1E1E1E1A;
+    height: 70px;
+    position: absolute;
+    right: 74px;
+    z-index: 12;
+    width: 28%;
+    bottom: 69px;
+    display: flex;
+    justify-content: center;
+    align-items: center;;
+}
+.blur_first h3{
+font-family: Montserrat;
+font-size: 14px;
+font-weight: 400;
+line-height: 17.07px;
+text-align: center;
+width: 82%;
+margin: auto;
+}
