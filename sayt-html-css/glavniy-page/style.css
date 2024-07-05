@@ -1,0 +1,111 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');*{
+    padding: 0;
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+
+}
+
+.sayt_body{
+    padding-top: 23px;
+    width: 95%;
+    max-width: 1190px;
+    margin: auto;
+    /* background-color: red; */
+    height: 100px;
+}
+.navbar_sayt{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar_sayt_link{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.navbar_sayt_link span{
+font-size: 16px;
+font-weight: 400;
+line-height: 19.5px;
+text-align: left;
+
+}
+.links li{
+    list-style: none;
+}
+.links li a{
+    text-decoration: none;
+    color: black;
+}
+.navbar{
+    /* width: 95%; */
+    height: 60px;
+    /* max-width: 1190px; */
+    /* margin: 0 auto; */
+    display: flex;
+    width: 84%;
+    justify-content: space-between;
+    align-items: center;
+}
+.links{
+    display: flex;
+    gap: 61px;
+    align-items: center;
+    margin-top: -6px;
+}
+.navbar .toggle_btn{
+    cursor: pointer;
+    display: none;
+}
+.action_btn{
+font-family: Montserrat;
+font-size: 18px;
+font-weight: 600;
+line-height: 21.94px;
+text-align: left;
+width: 144px;
+height: 50px;
+border-radius: 5px;
+background-color: #FCD971;
+border: none;
+display: flex;
+justify-content: center;
+align-items: center;
+text-decoration: none;
+color: black;
+margin-right: -100px;
+margin-top: -7px;
+
+}
+.dropdown_menu{
+    position: absolute;
+    display: none;
+    top: 60px;
+    right: 20px;
+    width: 300px;
+    /* background: rgba(255, 255, 255, 0.1) */
+    /* background-color: red; */
+    backdrop-filter: blur(15px);
+    border-radius: 10px;
+    overflow: hidden;
+    height: 0;
+    transition: height 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.dropdown_menu li{
+    padding: 0.7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dropdown_menu .action_btn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+.dropdown_menu.open{
+    height: 240px
+}
+
+
