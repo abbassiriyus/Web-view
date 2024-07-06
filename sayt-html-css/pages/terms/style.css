@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@200..900&display=swap');
+.terms {
+    max-width:1110px;
+    margin: auto;
+    width: 95%;
+}
+.terms__haeder{
+    width: 100%;
+    background: #1E1E1E;
+min-height: 200px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+position: relative;
+overflow: hidden;
+}
+.terms__haeder h2{
+    font-family: Unbounded;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29.76px;
+    text-align: left;
+      color: white;
+      text-align: center;
+}
+.terms__haeder p{
+    color: white;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24.38px;
+    text-align: left;
+    text-align: center;
+}
+.terms__haeder img{
+    position: absolute;
+    right: -5%;
+    bottom: 0pc;
+    height: 242px;
+}
