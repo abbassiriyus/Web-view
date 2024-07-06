@@ -1,0 +1,6 @@
+.navbar_for_login{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    margin: auto;
+}
