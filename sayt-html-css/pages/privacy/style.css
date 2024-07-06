@@ -15,6 +15,7 @@ flex-direction: column;
 position: relative;
 overflow: hidden;
 margin-top: 32px;
+border-radius: 5px;
 }
 .terms__haeder h2{
     font-family: Unbounded;

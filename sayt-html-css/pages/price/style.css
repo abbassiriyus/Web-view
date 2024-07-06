@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@200..900&display=swap');
-.terms {
+.pay {
     max-width:1110px;
     margin: auto;
     width: 95%;
 }
-.terms__haeder{
+.pay__haeder{
     width: 100%;
     background: #1E1E1E;
 min-height: 200px;
@@ -15,8 +15,9 @@ flex-direction: column;
 position: relative;
 overflow: hidden;
 margin-top: 32px;
+border-radius: 5px;
 }
-.terms__haeder h2{
+.pay__haeder h2{
     font-family: Unbounded;
     font-size: 24px;
     font-weight: 600;
@@ -26,7 +27,7 @@ margin-top: 32px;
       text-align: center;
       margin-bottom: 18px;
 }
-.terms__haeder p{
+.pay__haeder p{
     color: white;
     font-family: Montserrat;
     font-size: 20px;
@@ -35,17 +36,17 @@ margin-top: 32px;
     text-align: left;
     text-align: center;
 }
-.terms__haeder img{
+.pay__haeder img{
     position: absolute;
     right: -5%;
     bottom: 0pc;
     height: 242px;
 }
-.terms__text{
+.pay__text{
     margin-top: 53px;
     margin-left: 1px;
 }
-.terms__text p{
+.pay__text p{
    
 font-family: Montserrat;
 font-size: 18px;
@@ -55,11 +56,11 @@ text-align: left;
 color: #1E1E1E;
 
 }
-.terms__text ul{
+.pay__text ul{
   
     margin-bottom: 1px;
 }
-.terms__text li{
+.pay__text li{
     margin-left: 29px;
     margin-top: 1px;
     font-family: Montserrat;
