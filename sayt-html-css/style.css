@@ -121,7 +121,8 @@ font-size: 45px;
 font-weight: 600;
 line-height: 55.8px;
 text-align: left;
-
+z-index: 1;
+position: relative;
 }
 .phone_text_img{
     display: grid;
@@ -149,6 +150,12 @@ border-radius: 5px;
 color: white;
 background-color: #41E88C;
 border: none;
+transition: 1s;
+}
+.first_div_for_text button:hover{
+    background-color: rgba(255, 0, 0, 0);
+    border: 1px solid #41E88C;
+    color: #41E88C;
 }
 .second_div_for_img{
     position: relative;
@@ -271,7 +278,7 @@ text-align: center;
     top: 4px;
     left: 10px;
     width: 92%;
-    
+    max-width: 350px;
 }
 .banner_body_text{
     padding-left: 108px;
@@ -336,7 +343,9 @@ width: 38%;
     padding: 32px;
     border-radius: 5px;
 }
-
+.block_phone_for_med{
+    display: none;
+}
 .first_banner_back{
     color: white;
     margin-bottom: 28px;
@@ -575,4 +584,186 @@ margin-top: 15px;
     line-height: 14.63px;
     text-align: left;
     color: #1E1E1E80;    
+}
+
+
+@media (max-width:1135px) {
+    .banner_body_text button {
+        width:30%;
+        margin-top: 18px;
+    }
+}
+@media (max-width:1070px) {
+    .banner_body_text button {
+        width:30%;
+        margin-top: 18px;
+    }
+    .banner_body_text {
+        padding-left: 18px;
+    }
+    .sayt_banner_body {
+        background-color: #1E1E1E;
+        width: 100%;
+        padding-top: 13px;
+    }
+    .banner_body_img img {
+        margin-left: 8px;
+        position: relative;
+        top: 4px;
+        left: 0px;
+        width: 99%;
+    }
+}
+@media (max-width:1038px) {
+    .first_div_for_text h1{
+        font-size: 39px;
+    }
+    .first_div_for_text button{
+        margin-top: 26px;
+    }
+}
+@media (max-width:991px) {
+    .first_div_for_text h1 {
+        font-size: 33px;
+    }
+    .phone_text_img{
+        display: grid;
+        grid-template-columns: 5fr;
+    }
+    .phone {
+        position: relative;
+        left: 0;
+        top: 0;
+    }
+    .second_div_for_img{
+        width: 70%;
+        margin: auto;
+    }
+    .second_div__reklama__third {
+        position: absolute;
+        border: 12px;
+        bottom: 155px;
+        left: -134px;
+    }
+    .second_div__reklama__first {
+        position: absolute;
+        top: 84px;
+        right: 0px;
+    }
+}
+@media (max-width:918px) {
+    .banner_body_text h3 {
+        width:100%;
+    }
+    .banner_body_text button{
+        height: 51px;
+    }
+}
+@media (max-width:864px) {
+    .banner_body_text h3{
+        font-size: 17px;
+    }
+    .banner_body_text{
+        margin-top: 0px;
+    }
+}
+@media (max-width:800px) {
+    .sayt_banner_body{
+        display: grid;
+       grid-template-columns: 1fr;
+    }
+    .block_phone_for_med{
+        display: block;
+        margin-top: 40px;
+    }
+    .banner_body_img img{
+        display: none;
+    }
+    .banner_body_text h3 {
+        font-size: 23px;}
+        .banner_body_text{
+            padding-left: 0px;
+            text-align: center;
+        }
+        .banner_body_text button{
+            width: 98%;
+        }
+}
+@media (max-width:730px) {
+    .phone {
+        position: relative;
+        left: 100px;
+    width: 63%;
+    }
+    .second_div__reklama__text {
+        width: 179px;
+        height: 56px;
+    }
+    .second_div__reklama__third {
+        position: absolute;
+        border: 12px;
+        bottom: 50px;
+        left: -38px;
+    }
+    .second_div__reklama__third .second_div__reklama__circle {
+        position: absolute;
+        right: 49px;
+    }
+    .second_div__reklama__second{
+        right: 0;
+    }
+    .second_div__reklama__first {
+        position: absolute;
+        top: 40px;
+        right: -96px;
+    }
+}
+
+@media (max-width:620px) {
+    .second_div_for_img{
+        display: none;
+    }
+    .first_div_for_text button{
+        width: 100%;
+    }
+}
+@media (max-width:512px) {
+    .first_div_for_text h1 br{
+        display: none;
+    }
+    .first_div_for_text h1 {
+    font-size: 24px;
+    line-height: 41.8px;
+    }
+    .first_div_for_text p{
+        width: 100%;
+        font-size: 17px;
+    }
+    .banner_body_text h3{
+        font-size: 16px;
+    }
+    .block_phone_for_med img{
+        width: 50%;
+    }
+}
+@media (max-width:396px) {
+    .first_div_for_text h1 {
+        font-size: 19px;
+    }
+    .first_div_for_text p{
+        margin-top: 8px;
+        font-size: 13px;
+    }
+    .first_div_for_text button {
+        height: 52px;
+        font-size: 16px;
+    }
+    .banner_body_text h3{
+        line-height: 21px;
+        font-size: 13px;
+    }
+    .banner_body_text button {
+        height: 41px;
+        font-size: 16px;
+    }
 }
