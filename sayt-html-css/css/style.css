@@ -97,6 +97,7 @@ margin-top: -7px;
     /* height: 240px; */
     width: 100%;
     max-width: 360px;
+    z-index: 12;
     transition: 1s;
 }
 @media(max-width:991px){
@@ -121,5 +122,8 @@ margin-top: -7px;
         right: 15px;
         font-size: 30px;
         cursor: pointer;
+    }
+    .navbar{
+        margin-top: 0px;
     }
 }
