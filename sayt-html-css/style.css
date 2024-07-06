@@ -54,7 +54,7 @@ text-align: left;
 }
 .links{
     display: flex;
-    gap: 61px;
+    gap: 62px;
     align-items: center;
     margin-top: -6px;
 }
@@ -126,7 +126,7 @@ text-align: left;
 }
 .phone_text_img{
     display: grid;
-    margin-top: 91px;
+    margin-top: 94px;
     grid-template-columns: 5fr 3fr;
 }
 .first_div_for_text p{
@@ -135,13 +135,13 @@ font-size: 20px;
 font-weight: 400;
 line-height: 24.38px;
 text-align: left;
-margin-top: 22px;
+margin-top: 19px;
 width: 62%;
 }
 .first_div_for_text button{
     height: 65px;
     width: 38%;
-    margin-top: 68px;
+    margin-top: 71px;
 font-family: Montserrat;
 font-size: 18px;
 font-weight: 600;
@@ -156,25 +156,26 @@ border: none;
 }
 .phone{
     position: absolute;
-    left: -134px;
-    top: -20;
-    top: -59px;
+    left: -132px;
+    top: -64px;
     width: 85%;
+
 }
 .blur_first{
     background: #FFFFFF80;
-    border: 1px solid #FFFFFF4D;
-    /* background: red; */
+    border:  1px solid #FFFFFF4D;
     box-shadow: 0px 0px 20.2px 0px #1E1E1E1A;
-    height: 70px;
+    height: 68px;
     position: absolute;
     right: 74px;
     z-index: 12;
-    width: 28%;
-    bottom: 69px;
+    width: 207px;
+    bottom: 72px;
     display: flex;
     justify-content: center;
-    align-items: center;;
+    align-items: center;
+    border-radius: 5px;
+    backdrop-filter: blur(3px);
 }
 .blur_first h3{
 font-family: Montserrat;
@@ -182,6 +183,43 @@ font-size: 14px;
 font-weight: 400;
 line-height: 17.07px;
 text-align: center;
-width: 82%;
-margin: auto;
+/* width: 82%; */
+/* margin: auto; */
+margin-right: 10px;
+}
+.second_div__reklama__circle{
+    width: 25px;
+    height: 25px;
+    background: #41E88C;
+border-radius: 50%;
+margin-right: -12px;
+}
+.second_div__reklama{
+    background-color: red;
+    position: relative;
+    z-index: 12;
+    display: flex;
+    align-items: center;
+    width: 230px;
+}
+.second_div__reklama__text{
+    width: 207px;
+height: 70px;
+backdrop-filter: blur(4px);
+gap: 0px;
+border-radius: 5px;
+border: 1px 0px 0px 0px;
+display: flex;
+justify-content: center;
+align-items: center;
+opacity: 0px;
+text-align: center;
+background: #FFFFFF80;
+box-shadow: 0px 0px 20.2px 0px #1E1E1E1A;
+font-family: Montserrat;
+font-size: 14px;
+font-weight: 400;
+line-height: 17.07px;
+text-align: center;
+border: 1px solid #FFFFFF4D;
 }
