@@ -15,6 +15,7 @@
 .user{
     display: flex;
     gap: 10px;
+    position: relative;
     align-items: center;
 }
 .user span{
@@ -126,9 +127,14 @@ line-height: 21.94px;
 color:white;
 width:229px;
 margin-top: 100%;
+transition: 1s;
 }
 
-
+.key_btn:hover{
+    border: 1px solid #41E88C;
+    color: #41E88C;
+    background-color: #1e1e1e00;
+}
 /* footer */
 
 .sayt_footer{
@@ -195,7 +201,21 @@ margin-top: 15px;
 /* footer */
 
 
-
+.open_email{
+    position: absolute;
+    right: 12px;
+    top: 60px;
+    width:50%;
+    height: 30px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    color: white;
+    background-color: #1E1E1E;
+    font-family: Montserrat;
+}
 
 
 @media (max-width:1305px) {
@@ -263,4 +283,14 @@ margin-top: 15px;
         margin: auto;
         margin-top: 50px;
         }
+}
+
+@media (max-width:530px) {
+    .user span {
+        display: none;
+    }
+    .arrow_img{
+        display: none;
+
+    }
 }
