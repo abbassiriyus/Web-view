@@ -1,6 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 .navbar_for_login{
     display: flex;
     justify-content: space-between;
     width: 95%;
     margin: auto;
+}
+.user{
+    display: flex;
+    align-items: center;
+}
+.user span{
+font-family: Montserrat;
+font-size: 18px;
+font-weight: 600;
+line-height: 21.94px;
+text-align: left;
+
 }
