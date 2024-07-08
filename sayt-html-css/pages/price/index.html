@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../css/style.css">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="pay">
+        <div class="navbar">
+            <div class="navbar__logo"><a href="#"><img src="../../img/Лого.png" alt=""></a></div>
+            <ul class="navbar__links">
+                <li><a href="hero">Скачать</a></li>
+                <li><a href="services">Тарифы</a></li>
+                <li><a href="about">O нас</a></li>
+                <li><a href="help">Помощь</a></li>
+            </ul>
+            <a href="#" class="action_btn">Войти </a>
+            <div onclick="document.querySelector('.dropdown_menu').style='  right: 0%;'" class="toggle_btn">
+                <i class='bx bx-menu'></i>
+            </div>
+        </div>
+        <div class="dropdown_menu open">
+            <i class='bx bx-x' onclick="document.querySelector('.dropdown_menu').style='  right:-100%;'" ></i>
+            <li><a href="hero">Скачать</a></li>
+            <li><a href="services">Тарифы</a></li>
+            <li><a href="about">O нас</a></li>
+            <li><a href="help">Помощь</a></li>
+          
+            <li>  <a href="#" class="action_btn">Войти </a></li>
+        </div>
+<header class="pay__haeder">
+    <h2>Тарифы</h2>
+    
+    <img src="../../img/V.svg" alt="">
+</header>
+<div class="pay__text">
+    <p>
+        На все услуги представленные на сайте https://vezarys.ru <br> или  @vezarysbot действует одна цена - 150 рублей в месяц
+    </p>
+</div>
+    </div>
+</body>
+</html>
