@@ -29,7 +29,8 @@ border-radius: 5px;
 }
 .pay__haeder p{
     color: white;
-    font-family: Montserrat;
+    font-family: "Montserrat", sans-serif;
+
     font-size: 20px;
     font-weight: 400;
     line-height: 24.38px;
@@ -48,7 +49,8 @@ border-radius: 5px;
 }
 .pay__text p{
    
-font-family: Montserrat;
+       font-family: "Montserrat", sans-serif;
+
 font-size: 18px;
 font-weight: 400;
 line-height: 21.94px;
@@ -63,7 +65,8 @@ color: #1E1E1E;
 .pay__text li{
     margin-left: 29px;
     margin-top: 1px;
-    font-family: Montserrat;
+           font-family: "Montserrat", sans-serif;
+
     font-size: 18px;
     font-weight: 400;
     line-height: 21.94px;

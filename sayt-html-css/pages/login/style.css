@@ -33,8 +33,7 @@ text-align: left;
     display: grid;
     grid-template-columns: 250px auto;
     gap: 70px;
-    align-items: start;
-
+    align-items: stretch;
 }
 .login_page_black h3{
     transition: 1s;
@@ -49,10 +48,12 @@ margin-left: 30px;
 }
 .login_page_black{
     width: 100%;
-    height: 88vh;
+    max-width: 250px;
+    min-height:100%;
     background-color: #1E1E1E;
     color: white;
     padding-top: 20px;
+    transition: 1s;
 }
 .login_page_black h3:hover{
     color: #6C83FF;
@@ -126,7 +127,7 @@ font-weight: 600;
 line-height: 21.94px;
 color:white;
 width:229px;
-margin-top: 100%;
+margin-top: 200px;
 transition: 1s;
 }
 
@@ -139,9 +140,9 @@ transition: 1s;
 
 .sayt_footer{
     display: grid;
-    grid-template-columns: 3.9fr 2fr 3.1fr 3.5fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     width: 95%;
-    /* max-width: 1190px; */
+    max-width: 1440px;
     margin: auto;
     /* padding-top: 31px; */
     justify-content: space-between;
@@ -198,6 +199,54 @@ margin-top: 15px;
     text-align: left;
     color: #1E1E1E80;    
 }
+
+
+
+@media (max-width:934px) {
+    .sayt_footer{
+        display: grid;
+        grid-template-columns: 1fr  1fr 1fr;
+        width: 95%;
+        max-width: 1440px;
+        margin: auto;
+        /* padding-top: 31px; */
+        justify-content: space-between;
+        margin-top: 28px;
+    }
+}
+@media (max-width:758px) {
+    .sayt_footer{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 95%;
+        max-width: 1440px;
+        margin: auto;
+        /* padding-top: 31px; */
+        justify-content: space-between;
+        margin-top: 28px;
+    }
+}
+@media (max-width:558px) {
+    .sayt_footer{
+        display: grid;
+        grid-template-columns:1fr;
+        width: 95%;
+        max-width: 1440px;
+        margin: auto;
+        /* padding-top: 31px; */
+        justify-content: space-between;
+        margin-top: 28px;
+    }
+    .sayt_footer ul{
+        margin-bottom: 25px;
+    }
+    .sayt_footer ul p br{
+        display: none;
+    }
+    .sayt_footer ul p{
+        width: 100%;
+    }
+}
 /* footer */
 
 
@@ -205,9 +254,9 @@ margin-top: 15px;
     position: absolute;
     right: 12px;
     top: 60px;
-    width:50%;
+    width:100%;
+    max-width: 300px;
     height: 30px;
-    background-color: red;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -217,7 +266,42 @@ margin-top: 15px;
     font-family: Montserrat;
 }
 
-
+.open_email{
+    display: none;
+}
+.user_mobile{
+    display: none;
+}
+.black_arrow{
+    width: 13px;
+    height: 50px;
+    background-color: #0000006b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: -10px;
+    top: 0;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    /* display: none; */
+    opacity: 0;
+}
+.login_page_black{
+    position: sticky;
+    left: 0;
+    top: 0px;
+    width: 100%;
+    z-index: 1;
+}
+.black_big{
+    position: relative;
+    height: 100%;
+}
+.bx-chevron-left{
+    color: white;
+    display: none ;
+}
 @media (max-width:1305px) {
     .big_login_page{
         display: grid;
@@ -245,6 +329,7 @@ margin-top: 15px;
     }
     .key_btn {
     margin-top: 37%;
+    margin-left: 10px;
     }
 }
 @media (max-width:920px) {
@@ -253,8 +338,15 @@ margin-top: 15px;
         grid-template-columns: auto;
     }
 .login_page_black{
-    display: none;
+    position: absolute;
+left: -250px;
 }
+.black_arrow{
+    opacity: 1;
+}
+/* .black_arrow{
+    display: block;
+} */
 .three_card_login_page {
     gap: 8px;
     display: grid;
@@ -262,6 +354,9 @@ margin-top: 15px;
     width: 96%;
     margin: auto;
     margin-top: 50px;
+    }
+    .big_login_page {
+    gap: 8px;
     }
 }
 @media (max-width:858px){
@@ -281,7 +376,7 @@ margin-top: 15px;
         grid-template-columns: 1fr;
         width: 96%;
         margin: auto;
-        margin-top: 50px;
+        margin-top: 0px;
         }
 }
 
@@ -293,4 +388,15 @@ margin-top: 15px;
         display: none;
 
     }
+    /* .open_email{
+        display: ;
+    } */
+     .user_first{
+        display: none;
+     }
+     .user_mobile{
+        display: block;
+     }
 }
+
+

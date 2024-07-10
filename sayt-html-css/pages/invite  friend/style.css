@@ -1,0 +1,146 @@
+.extra_violet_big{
+    padding-top: 70px;
+    width: 98%;
+    margin: auto;   
+}
+.extra_violet_big h3{
+font-family: Montserrat;
+font-size: 16px;
+font-weight: 400;
+line-height: 19.5px;
+text-align: left;
+
+}
+.span_flex_h2{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+.span_flex_h2 span{
+font-family: Montserrat;
+font-size: 16px;
+font-weight: 400;
+line-height: 19.5px;
+text-align: left;
+
+}
+.span_flex_h2 h2{
+font-family: Montserrat;
+font-size: 20px;
+font-weight: 500;
+line-height: 24.38px;
+text-align: left;
+position: relative;
+top: -2px;
+}
+.friend{
+font-family: Montserrat;
+font-size: 16px;
+font-weight: 400;
+line-height: 19.5px;
+text-align: left;
+}
+.user_friend_invite{
+    border: 1px solid #766CF5;
+    max-width: 830px;
+    width: 100%;
+    min-height: 340px;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+.big_invite{
+    width: 100%;
+    height: 60px;
+    background-color: #766CF5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.invite_top{
+    align-items: center;
+    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 100px 2fr 1fr 1fr;
+    width: 95%;
+    margin: auto;
+}
+.invite_top span{
+font-family: Montserrat;
+font-size: 20px;
+font-weight: 500;
+line-height: 24.38px;
+text-align: left;
+color: white;
+}
+
+.in_invite_nig_user{
+    align-items: center;
+    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 100px 2fr 1fr 1fr;
+    width: 95%;
+    margin: auto;
+    margin-top: 20px;
+}
+.in_invite_nig_user span{
+font-family: Montserrat;
+font-size: 16px;
+font-weight: 400;
+line-height: 19.5px;
+text-align: left;
+
+}
+
+@media (max-width:920px) {
+    .extra_violet_big{
+        padding-top: 0;
+    }
+}
+
+@media (max-width:542px) {
+    .user_friend_invite{
+        min-height: 200px;
+    }
+    .span_flex_h2 h2{
+        font-size: 17px;
+    }
+    .invite_top span{
+        font-size: 17px;
+    }
+    .invite_top{
+        grid-template-columns: 30px 2fr 1fr 1fr;
+    }
+    .in_invite_nig_user{
+        grid-template-columns: 30px 2fr 1fr 1fr;
+
+    }
+}
+@media (max-width:490px) {
+    .span_flex_h2{
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width:385px){
+    .invite_top span {
+        font-size: 14px;
+    }
+    .in_invite_nig_user span{
+        font-size: 13px;
+    }
+    .extra_violet_big h3{
+        font-size: 14px;
+    }
+    .span_flex_h2 span{
+        font-size: 15px;
+    }
+    .friend{
+        font-size: 15px;
+    }
+    .user_friend_invite{
+        margin-bottom: 20px;
+    }
+}

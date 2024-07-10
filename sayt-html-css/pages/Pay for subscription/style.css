@@ -1,0 +1,131 @@
+.one_div_for_pay{
+    background: #766CF5;
+    border-radius: 5px;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+    transition: 1s;
+    border: 1px solid #766CF5;
+
+}
+.one_div_for_pay:hover{
+    border: 1px solid #766CF5;
+    color: #766CF5;
+    background-color: #1e1e1e00;
+}
+.big_div_for_pay{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 15px;
+    max-width: 500px;
+    width: 100%;
+    margin-top: 20px;
+}
+.one_div_for_pay span{
+font-family: Montserrat;
+font-size: 20px;
+font-weight: 500;
+line-height: 24.38px;
+text-align: left;
+
+}
+.extra_violet{
+    padding-top: 50px;
+    
+}
+.span_two {
+    margin-bottom: 100px;
+}
+.span_two span{
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24.38px;
+    text-align: left;
+    
+
+}
+.kart_cum h3{
+    font-family: Montserrat;
+font-size: 18px;
+font-weight: 500;
+line-height: 21.94px;
+text-align: left;
+
+}
+.buttons_for_pay{
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    margin-top:130px;
+    margin-bottom: 100px;
+
+}
+.buttons_for_pay button{
+    text-wrap: nowrap;
+    border: 1px solid #1E1E1E;
+    height: 65px;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 449px;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21.94px;
+    background-color: #1e1e1e00;
+    transition: 1s;
+
+}
+.buttons_for_pay button:hover{
+    background-color: rgba(0, 0, 0, 0.336);
+}
+.pay_one_btn{
+    width: 100% !important;
+    color: white;
+    border: 1px solid #41E88C !important;
+    background: #41E88C !important;
+    transition: 1s;
+    max-width: 300px !important;
+}
+.pay_one_btn:hover{
+background-color: rgba(139, 69, 19, 0) !important;    
+color: #41E88C;
+}
+@media (max-width:920px) {
+    .extra_violet{
+        width: 98%;
+        margin: auto;
+        padding-top: 0;
+    }
+    .span_two{
+        margin-bottom: 30px;
+    }
+    .buttons_for_pay{
+        margin-top: 70px;
+    }
+    .buttons_for_pay button{ 
+        font-size: 15px;
+    }
+
+}
+@media (max-width:510px) {
+    .buttons_for_pay{
+        flex-wrap: wrap;
+        margin-bottom: 20px;
+    }
+    .buttons_for_pay button{
+        max-width: 320px !important;
+    }
+}
+@media (max-width:380px) {
+    .big_div_for_pay{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .big_div_for_pay{
+        gap: 10px;
+    }
+}

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/sayt-html-css/pages/login/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+        
+<div class="navbar_for_login">
+    <img class="logo_navbar_other" src="/sayt-html-css/img/Лого.png" alt="">
+    <div class="user">
+        <img class="user_mobile" onclick="
+            document.querySelector('.open_email').style='display:flex'
+            " src="/sayt-html-css/img/Group 14.png" alt="">
+                <img class="user_first" src="/sayt-html-css/img/Group 14.png" alt="">
+        <span>username@gmail.com</span>
+        <img class="arrow_img" src="/sayt-html-css/img/next 1.png" alt="">
+      
+    </div>
+      <div onmouseleave="
+      document.querySelector('.open_email').style='display:none'
+      " class="open_email">
+            <span>username@gmail.com</span>
+        </div>
+</div>
+<hr>
+<div class="big_login_page">
+        <div class="black_big">
+            <div class="login_page_black">
+                <h3 onclick="
+                    window.location='/sayt-html-css/pages/login/index.html'
+                    ">Ключи подключения</h3>
+                <h3 onclick="
+                window.location='/sayt-html-css/pages/Pay for subscription/index.html'
+                ">Оплатить подписку</h3>
+                <h3  onclick="
+                window.location='/sayt-html-css/pages/invite  friend/index.html'
+                ">Пригласить друга</h3>
+                <h3 onclick="
+                window.location='/sayt-html-css/pages/history/index.html '
+                ">Биллинг</h3>
+                <div onclick="
+                document.querySelector('.login_page_black').style='left:0;    min-height: 100vh;        '
+                " onmouseleave="document.querySelector('.login_page_black').style='left:-250px'" class="black_arrow">
+                    <i style="color: white;" class='bx bxs-chevron-right' ></i>
+        
+                </div>
+            </div>
+        </div>
+        <div class="violet_big extra_violet_big">
+            <h3>Скопируйте ссылку и отправьте другу, чтобы получить 150 руб. на баланс, если Ваш друг оплатит ключ</h3>
+            <div class="span_flex_h2">
+                <span>Ссылка для копирования</span>
+                <h2>rg.me/start3873775hfhgvbee</h2>
+            </div>
+            <span class="friend">Приглашенные друзья</span>
+
+            <div class="user_friend_invite">
+              <div class="big_invite">
+                <div class="invite_top">
+                    <span>№</span>
+                    <span>Пользователь</span>
+                    <span>Бонус</span>
+                    <span>Дата</span>
+                </div>
+                
+              </div>
+              <div class="in_invite_nig_user">
+                <span>1.</span>
+                <span>Иванов Иван</span>
+                <span>Получен</span>
+                <span>21.03.2022</span>
+              </div>
+            </div>
+            
+        </div>
+    </div>
+
+    <hr style="    margin-top: 20px;">
+<footer class="sayt_footer">
+    <ul>
+        <img class="logotip" src="/sayt-html-css/img/Лого.png" alt="">
+        <p>Ваша безопасность и конфиденциальность <br> — наш приоритет</p>
+    </ul>
+    <ul style="margin-top: 12px;    margin-left: 10px;">
+        <h3>Скачать</h3>
+        <li>iPhone</li>
+        <li>Android</li>
+        <li>MacOS</li>
+        <li>Windows</li>
+    </ul>
+    <ul style="margin-top: 12px;     margin-left: 10px; ">
+        <h3>Помощь</h3>
+        <li>Связаться с нами</li>
+        <li>Политика конфиденциальности</li>
+        <li>Условия использования</li>
+        <h4>Тарифы</h4>
+        <h4>О нас</h4>
+    </ul>
+    <ul  class="kontact" style="margin-top: 12px; margin-left: 10px;">
+        <h3>Контакты</h3>
+        <img src="/sayt-html-css/img/telegram 1.png" alt="">
+    </ul><h5 class="footer_h5">© 2024 Vezarys.  Все права защищены</h5> 
+</footer>
+</body>
+</html>
