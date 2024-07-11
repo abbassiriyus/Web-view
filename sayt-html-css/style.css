@@ -845,11 +845,14 @@ margin-bottom: 10px;
 
 .second_banner{
     display: flex;
-    max-width: 1133px;
+    max-width: 1067px;
     align-items: stretch;
     gap: 2%;
+    min-height: 541px;
     color: white;
     flex-wrap: wrap;
+    margin-top: 30px;
+    justify-content: space-between;
 }
 .second_banner h6{
 font-family: Montserrat;
@@ -875,6 +878,7 @@ text-align: left;
     background: #1DBE75;
 width: 30%;
 display: flex;
+border-radius: 5px;
 align-items: center;
 justify-content: space-between;
 flex-direction: column;
@@ -951,6 +955,7 @@ width: 33%;
         background: #1DBE75;
     width: 100%;
     padding: 0px;
+    
     margin-top: 0px;
     } 
     .second h6, .second p{
@@ -966,6 +971,7 @@ padding: 27px;
 }
 .first__first{
     flex-grow: 1.2;
+    border-radius: 5px;
     display: flex;
     justify-content: space-around;
     flex-direction: column;
@@ -980,26 +986,32 @@ min-height: 200px;
 .first__second{
     flex-grow: 1;
     padding: 27px;
+    border-radius: 5px;
+
     background: #2C64F7;
 
 }
 .three__first__first{
     background: #34A9FC;
     padding: 27px;
+    border-radius: 5px;
+
 }
 .three__first__second{
     background: #1E1E1E;
     padding: 27px;
+    border-radius: 5px;
+
 }
 .threee__second{
     background: linear-gradient(180deg, rgba(255, 255, 255, 0.27) 17.01%, rgba(255, 255, 255, 0) 81.15%);
     background: #766CF5;
+    border-radius: 5px;
 
 }
 
 .three__first{
     flex-grow: 1;
-    
 }
 .threee__second{
     flex-grow: 1;
