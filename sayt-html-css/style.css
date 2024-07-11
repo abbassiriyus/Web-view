@@ -845,9 +845,10 @@ margin-bottom: 10px;
 
 .second_banner{
     display: flex;
-    max-width: 1200px;
+    max-width: 1133px;
     background-color: red;
     align-items: stretch;
+    gap: 36px
 }
 .three__first{
     display: grid;
@@ -859,6 +860,17 @@ margin-bottom: 10px;
     display:flex;
     flex-direction: column;
     gap: 20px;
+    width: 28%;
+}
+.second{
+    background: #1DBE75;
+width: 35%;
+}
+.three{
+    display: flex;
+flex-direction: column;
+gap: 27px;
+width: 33%;
 }
 .first__first{
     flex-grow: 1.2;
@@ -867,7 +879,7 @@ margin-bottom: 10px;
     flex-direction: column;
     padding: 27px;
     background: #1E1E1E;
-
+color: white;
 }
 .first__first img{
     width: 55px;
@@ -878,7 +890,14 @@ margin-bottom: 10px;
     background: #2C64F7;
 
 }
-.second{
-    background: #1DBE75;
 
+.three__first{
+    flex-grow: 1;
+    padding: 27px;
+}
+.threee__second{
+    flex-grow: 1;
+    padding: 27px;
+    display: flex;justify-content: space-around;
+    flex-direction: column;
 }
