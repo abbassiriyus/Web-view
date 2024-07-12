@@ -229,7 +229,9 @@ font-size: 18px;
 font-weight: 400;
 line-height: 21.94px;
 text-align: left;
-width: 38%;
+/* width: 38%; */
+width: 100%;
+max-width: 500px;
 }
 .bid_div_for_answer_banners{
     display: flex;
@@ -371,7 +373,7 @@ margin-top: 47px;
 
 /* steps */
 .step_big_div{
-    margin-top: 114px;
+    margin-top: 141px;
     margin-left: 3px;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -626,8 +628,11 @@ margin-bottom: 10px;
 }
 @media (max-width:800px) {
     .sayt_banner_body{
-        display: grid;
-       grid-template-columns: 1fr;
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 0;
+        width: auto;
     }
     .block_phone_for_med{
         display: block;
@@ -700,7 +705,11 @@ margin-bottom: 10px;
         font-size: 16px;
     }
     .block_phone_for_med img{
-        width: 50%;
+        width: 70%;
+    }
+    .sayt_banner_body{
+        padding: 20px;
+        padding-bottom: 0;
     }
 }
 @media (max-width:437px) {
@@ -721,13 +730,14 @@ margin-bottom: 10px;
         font-size: 16px;
     }
     .banner_body_text h3{
-        line-height: 21px;
-        font-size: 13px;
+        line-height: 17px;
+        font-size: 12px;
     }
     .banner_body_text button {
         height: 41px;
         font-size: 16px;
     }
+    
 }
 @media (max-width:1169px) {
    .extra{
@@ -790,17 +800,23 @@ margin-bottom: 10px;
     .step_big_div_text h3 {
         font-size: 20px;
     }
+    .popular_question{
+        font-size: 20px !important;
+    }
     .step_big_div_text p{
         font-size: 15px;
     }
     .step_big_div_img img{
         left: 65px;
     }
-    .sayt_banner_body{
+    /* .sayt_banner_body{
         display: none;
-    }
+    } */
     .step_big_div_text button{
         height: 48px;
+    }
+    .why_banners_sayt .answer_for_question{
+        font-size: 15px;
     }
 }
 
@@ -828,6 +844,9 @@ margin-bottom: 10px;
     .sayt_footer ul p{
         width: 100%;
     }
+    .why_banners_sayt {
+        margin-top: 34px;
+    }
     }
 @media (max-width:534px) {
     .sayt_footer{
@@ -839,15 +858,18 @@ margin-bottom: 10px;
     .sayt_hr{
         margin-top: 154px;
     }
+    .first{
+        margin-top: 0;
+    }
 }
 
 
 
 .second_banner{
     display: flex;
-    max-width: 1067px;
+    max-width: 1053px;
     align-items: stretch;
-    gap: 2%;
+    gap: 0%;
     min-height: 541px;
     color: white;
     flex-wrap: wrap;
@@ -860,12 +882,12 @@ font-size: 20px;
 font-weight: 500;
 line-height: 24.38px;
 text-align: left;
-
+margin-bottom: 15px;
 }
 .three__first{
     display: grid;
     grid-template-columns: 1.2fr 0.7fr;
-    gap: 20px;
+    gap: 60px;
 }
 
 .first{
@@ -892,7 +914,22 @@ padding-bottom: 0px;
     display: flex;
 flex-direction: column;
 gap: 27px;
-width: 33%;
+width: 34%;
+}
+.threee__second{
+    width: 103%;
+}
+.threee__second button{
+    width: 117px;
+    margin-top: 20px;
+    height: 50px;
+    border-radius: 5px;
+    background: #FCD971;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21.94px; 
+    border: none;
 }
 @media(max-width:1118px){
     .first{
@@ -902,6 +939,9 @@ width: 33%;
         width: 40%;
         margin-top: 20px;
         margin-bottom: 20px;
+    }
+    .threee__second{
+        width: 95% ;
     }
     
 .second_banner{
@@ -928,6 +968,11 @@ width: 33%;
     width: 100%;
     } 
 }
+@media (max-width:800px) {
+    .threee__second{
+        width: 93% ;
+    }
+}
 @media(max-width:712px){
     .first{
         display:flex;
@@ -943,6 +988,11 @@ width: 33%;
     padding-bottom: 0px;
    
     } 
+}
+@media (max-width:600px) {
+    .threee__second{
+        width: auto;
+    }
 }
 @media(max-width:560px){
     .first{
@@ -962,11 +1012,14 @@ width: 33%;
 padding: 27px;
     }
 }
-@media(max-width:400px){
+@media(max-width:435px){
     .three__first{
         display: grid;
         grid-template-columns: 1.2fr ;
         gap: 20px;
+    }
+    .three__first__first{
+        width: auto !important;
     }
 }
 .first__first{
@@ -995,7 +1048,7 @@ min-height: 200px;
     background: #34A9FC;
     padding: 27px;
     border-radius: 5px;
-
+    width: 99%;
 }
 .three__first__second{
     background: #1E1E1E;
@@ -1018,4 +1071,9 @@ min-height: 200px;
     padding: 27px;
     display: flex;justify-content: space-around;
     flex-direction: column;
+}
+@media (max-width:400px) {
+    .second img{
+        width: 68%;
+    }
 }
