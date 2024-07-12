@@ -1077,3 +1077,25 @@ min-height: 200px;
         width: 68%;
     }
 }
+
+  /* CSS styles for the animation */
+  .action_btn {
+    position: relative;
+    /* width: 200px;
+    height: 200px;
+    background-color: #007bff; */
+    /* border-radius: 50%; */
+    animation: bounce 2s infinite;
+  }
+
+  @keyframes bounce {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
